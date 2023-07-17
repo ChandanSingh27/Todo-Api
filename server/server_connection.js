@@ -3,6 +3,6 @@ const DatabaseConnection = require('./../connection/db_connection.js')
 
 DatabaseConnection()
 
-app.listen(5050,()=>{
+app.listen(process.env.PORT,()=>{
         console.log("server started");
 })
